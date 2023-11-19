@@ -1,6 +1,6 @@
 describe("Realizar esqueceu a senha e validar codigo", () => {
 
-    it("Ir para pagina esqueceu a senha e Validar codigo de verificacão", () => {
+    it("Ir para página esqueceu a senha e Validar código de verificação", () => {
         proccessForgotPassword();
         validateVerificationCode();
     });
