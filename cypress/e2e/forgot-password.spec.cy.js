@@ -1,13 +1,9 @@
-describe("Realizar esqueceu a senha e validar código", () => {
+describe("Realizar esqueceu a senha e validar codigo", () => {
 
-    it("Ir para página esqueceu a senha", () => {
+    it("Ir para página esqueceu a senha e Validar código de verificação", () => {
         proccessForgotPassword();
         validateVerificationCode();
     });
-
-    it("Validar código de verificação", () => {
-        //
-    })
 
     function proccessForgotPassword() {
         cy.visit("https://epi-assure.netlify.app/mudar-senha/recuperar-senha");
